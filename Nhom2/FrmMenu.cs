@@ -22,6 +22,7 @@ namespace Nhom2
             FrmQLSV frmQLSV = new FrmQLSV();
             frmQLSV.Show();
             this.Hide();
+            // 31/10
         }
 
         private void btngdsv_Click(object sender, EventArgs e)
