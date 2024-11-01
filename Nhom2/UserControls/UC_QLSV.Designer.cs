@@ -41,14 +41,14 @@
             this.Nhom2.ForeColor = System.Drawing.Color.Black;
             this.Nhom2.Location = new System.Drawing.Point(324, 18);
             this.Nhom2.Name = "Nhom2";
-            this.Nhom2.Size = new System.Drawing.Size(336, 40);
+            this.Nhom2.Size = new System.Drawing.Size(320, 39);
             this.Nhom2.TabIndex = 2;
             this.Nhom2.Text = "QUẢN LÝ SINH VIÊN";
             // 
             // dataGridViewqlsv
             // 
             this.dataGridViewqlsv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewqlsv.Location = new System.Drawing.Point(16, 113);
+            this.dataGridViewqlsv.Location = new System.Drawing.Point(16, 197);
             this.dataGridViewqlsv.Name = "dataGridViewqlsv";
             this.dataGridViewqlsv.RowHeadersWidth = 51;
             this.dataGridViewqlsv.RowTemplate.Height = 24;
@@ -75,7 +75,7 @@
             this.Controls.Add(this.dataGridViewqlsv);
             this.Controls.Add(this.Nhom2);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UC_QLSV";
             this.Size = new System.Drawing.Size(985, 417);
             this.Load += new System.EventHandler(this.UC_QLSV_Load);

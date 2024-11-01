@@ -65,47 +65,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmBCD.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmBCD.Designer.cs">
-      <DependentUpon>FrmBCD.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmGDSV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmGDSV.Designer.cs">
-      <DependentUpon>FrmGDSV.cs</DependentUpon>
-    </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmQLD.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmQLD.Designer.cs">
-      <DependentUpon>FrmQLD.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmQLMH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmQLMH.Designer.cs">
-      <DependentUpon>FrmQLMH.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmQLSV.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmQLSV.Designer.cs">
-      <DependentUpon>FrmQLSV.cs</DependentUpon>
-    </Compile>
-    <Compile Include="FrmTLH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmTLH.Designer.cs">
-      <DependentUpon>FrmTLH.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
