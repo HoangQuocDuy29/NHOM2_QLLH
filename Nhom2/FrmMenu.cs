@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Nhom2.UserControls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,61 +16,34 @@ namespace Nhom2
         public FrmMenu()
         {
             InitializeComponent();
+            UC_QLSV qlsv = new UC_QLSV();
+            addUserControl(qlsv);
         }
 
-        private void btnqlsv_Click(object sender, EventArgs e)
+        private void addUserControl(UserControl userControl)
         {
-            FrmQLSV frmQLSV = new FrmQLSV();
-            frmQLSV.Show();
-            this.Hide();
-            // 31/10
+            userControl.Dock = DockStyle.Fill;
+            panelContainer.Controls.Clear();
+            panelContainer.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
+        
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
 
-        private void btngdsv_Click(object sender, EventArgs e)
+        private void guna2qlsv_Click(object sender, EventArgs e)
         {
-            FrmGDSV frmGDSV = new FrmGDSV();
-            frmGDSV.Show();
-            this.Hide();
+            UC_QLSV qlsv = new UC_QLSV();
+            addUserControl(qlsv );
         }
 
-        private void btnqlmh_Click(object sender, EventArgs e)
+        private void guna2qlmh_Click(object sender, EventArgs e)
         {
-            FrmQLMH frmQLMH = new FrmQLMH();
-            frmQLMH.Show();
-            this.Hide();
-        }
-
-        private void btntlh_Click(object sender, EventArgs e)
-        {
-            FrmTLH frmTLH = new FrmTLH();
-            frmTLH.Show();
-            this.Hide();
-        }
-
-        private void btnqld_Click(object sender, EventArgs e)
-        {
-            FrmQLD frmQLD = new FrmQLD();
-            frmQLD.Show();
-            this.Hide();
-        }
-
-        private void btnbcd_Click(object sender, EventArgs e)
-        {
-            FrmBCD frmBCD = new FrmBCD();
-            frmBCD.Show();
-            this.Hide();
-        }
-
-        private void btnthoat_Click(object sender, EventArgs e)
-        {
-            // Tạo instance của Form Đăng Nhập
-            Form1 loginForm = new Form1();
-
-            // Hiển thị Form Đăng Nhập
-            loginForm.Show();
-
-            // Đóng Form hiện tại (FrmMenu)
-            this.Close();
+            UC_QLMH qlmh = new UC_QLMH();
+            addUserControl(qlmh);
         }
     }
 }
