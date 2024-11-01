@@ -28,10 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.iconSplitButton1 = new FontAwesome.Sharp.IconSplitButton();
             this.Nhom2 = new System.Windows.Forms.Label();
-            this.btnthoat = new System.Windows.Forms.Button();
+            this.dataGridViewqlsv = new System.Windows.Forms.DataGridView();
+            this.iconSplitButton1 = new FontAwesome.Sharp.IconSplitButton();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewqlsv)).BeginInit();
             this.SuspendLayout();
+            // 
+            // Nhom2
+            // 
+            this.Nhom2.AutoSize = true;
+            this.Nhom2.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nhom2.ForeColor = System.Drawing.Color.Black;
+            this.Nhom2.Location = new System.Drawing.Point(324, 18);
+            this.Nhom2.Name = "Nhom2";
+            this.Nhom2.Size = new System.Drawing.Size(336, 40);
+            this.Nhom2.TabIndex = 2;
+            this.Nhom2.Text = "QUẢN LÝ SINH VIÊN";
+            // 
+            // dataGridViewqlsv
+            // 
+            this.dataGridViewqlsv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewqlsv.Location = new System.Drawing.Point(16, 113);
+            this.dataGridViewqlsv.Name = "dataGridViewqlsv";
+            this.dataGridViewqlsv.RowHeadersWidth = 51;
+            this.dataGridViewqlsv.RowTemplate.Height = 24;
+            this.dataGridViewqlsv.Size = new System.Drawing.Size(956, 190);
+            this.dataGridViewqlsv.TabIndex = 3;
+            this.dataGridViewqlsv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewqlsv_CellContentClick);
             // 
             // iconSplitButton1
             // 
@@ -45,36 +68,18 @@
             this.iconSplitButton1.Size = new System.Drawing.Size(23, 23);
             this.iconSplitButton1.Text = "iconSplitButton1";
             // 
-            // Nhom2
-            // 
-            this.Nhom2.AutoSize = true;
-            this.Nhom2.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nhom2.ForeColor = System.Drawing.Color.Black;
-            this.Nhom2.Location = new System.Drawing.Point(397, 87);
-            this.Nhom2.Name = "Nhom2";
-            this.Nhom2.Size = new System.Drawing.Size(336, 40);
-            this.Nhom2.TabIndex = 2;
-            this.Nhom2.Text = "QUẢN LÝ SINH VIÊN";
-            // 
-            // btnthoat
-            // 
-            this.btnthoat.Location = new System.Drawing.Point(818, 384);
-            this.btnthoat.Name = "btnthoat";
-            this.btnthoat.Size = new System.Drawing.Size(97, 34);
-            this.btnthoat.TabIndex = 3;
-            this.btnthoat.Text = "Thoát";
-            this.btnthoat.UseVisualStyleBackColor = true;
-            // 
             // UC_QLSV
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.btnthoat);
+            this.Controls.Add(this.dataGridViewqlsv);
             this.Controls.Add(this.Nhom2);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "UC_QLSV";
-            this.Size = new System.Drawing.Size(1722, 587);
+            this.Size = new System.Drawing.Size(985, 417);
+            this.Load += new System.EventHandler(this.UC_QLSV_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewqlsv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -84,6 +89,6 @@
 
         private FontAwesome.Sharp.IconSplitButton iconSplitButton1;
         private System.Windows.Forms.Label Nhom2;
-        private System.Windows.Forms.Button btnthoat;
+        private System.Windows.Forms.DataGridView dataGridViewqlsv;
     }
 }

@@ -18,6 +18,19 @@ namespace Nhom2
             InitializeComponent();
             UC_QLSV qlsv = new UC_QLSV();
             addUserControl(qlsv);
+            ptexit.Click += new EventHandler(pictureBox2_Click);
+            // Đăng ký sự kiện MouseEnter và MouseLeave cho PictureBox
+            ptexit.MouseEnter += new EventHandler(PictureBox_MouseEnter);
+            ptexit.MouseLeave += new EventHandler(PictureBox_MouseLeave);
+        }
+        private void PictureBox_MouseEnter(object sender, EventArgs e)
+        {
+            ptexit.Cursor = Cursors.Hand; // Thay đổi con trỏ thành hình bàn tay khi di chuột vào
+        }
+
+        private void PictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            ptexit.Cursor = Cursors.Default; // Trả con trỏ về mặc định khi rời chuột khỏi PictureBox
         }
 
         private void addUserControl(UserControl userControl)
@@ -44,6 +57,21 @@ namespace Nhom2
         {
             UC_QLMH qlmh = new UC_QLMH();
             addUserControl(qlmh);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit(); // Thoát toàn bộ chương trình
+        }
+
+        private void Nhom2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2bcd_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
