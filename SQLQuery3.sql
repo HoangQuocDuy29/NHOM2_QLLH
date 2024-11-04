@@ -1,7 +1,12 @@
-INSERT INTO SinhVien (ma_sinh_vien, ho_ten, email, so_dien_thoai, chuyen_nganh, gioi_tinh, ngay_sinh, dia_chi, khoa_hoc, so_can_cuoc, da_xoa)
+INSERT INTO MonHoc ( ten_mon_hoc, so_tin_chi, phan_loai, tong_so_buoi_hoc, diem_thi_toi_thieu, diem_qua_mon, da_xoa)
 VALUES 
-(1, 'Nguyen Van A', 'nguyenvana@example.com', '0123456789', 'Cong nghe thong tin', 'Nam', '2000-01-01', 'Ha Noi', 'Khoa CNTT 2020', '123456789', 0),
-(2, 'Tran Thi B', 'tranthib@example.com', '0987654321', 'Ke toan', 'Nu', '1999-05-15', 'Hai Phong', 'Khoa Ke toan 2020', '987654321', 0),
-(3, 'Le Van C', 'levanc@example.com', '0167890123', 'Kinh te', 'Nam', '2001-03-22', 'Da Nang', 'Khoa Kinh te 2021', '456789123', 0),
-(4, 'Pham Thi D', 'phamthid@example.com', '0123012345', 'Quoc te', 'Nu', '2000-07-10', 'TP Ho Chi Minh', 'Khoa Quoc te 2021', '654321987', 0),
-(5, 'Hoang Van E', 'hoangvane@example.com', '0981234567', 'Marketing', 'Nam', '1998-12-25', 'Can Tho', 'Khoa Marketing 2019', '321456987', 0);
+('Lap Trinh Co Ban', 3, 'Bat buoc', 30, 4.0, 5.0, 0),
+ ('Cau Truc Du Lieu', 4, 'Bat buoc', 45, 4.5, 5.5, 0),
+( 'Toan Roi Rac', 3, 'Bat buoc', 30, 4.0, 5.0, 0),
+( 'Giao Duc The Chat', 2, 'Tu chon', 20, 4.0, 5.0, 0),
+( 'Marketing Co Ban', 3, 'Tu chon', 25, 4.5, 6.0, 0),
+( 'Quan Tri Kinh Doanh', 3, 'Bat buoc', 40, 5.0, 6.0, 0),
+( 'Ke Toan Tai Chinh', 4, 'Bat buoc', 45, 5.0, 6.0, 0),
+( 'Kinh Te Vi Mo', 3, 'Tu chon', 30, 4.5, 5.5, 0),
+( 'Lap Trinh Nang Cao', 4, 'Bat buoc', 50, 5.0, 6.5, 0),
+( 'Ky Nang Mem', 2, 'Tu chon', 20, 4.0, 5.0, 0);

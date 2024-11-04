@@ -1,4 +1,3 @@
-
 USE [Nhom2]
 GO
 /****** Object:  Table [dbo].[Diem]    Script Date: 10/31/2024 11:43:56 AM ******/
