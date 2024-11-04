@@ -46,7 +46,7 @@ namespace Nhom2
         {
 
         }
-
+        //
         private void guna2qlsv_Click(object sender, EventArgs e)
         {
             UC_QLSV qlsv = new UC_QLSV();

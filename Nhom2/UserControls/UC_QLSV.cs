@@ -60,7 +60,7 @@ namespace Nhom2.UserControls
                 con.Close();
             }
         }
-
+        //
         private void dataGridViewqlsv_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
            
