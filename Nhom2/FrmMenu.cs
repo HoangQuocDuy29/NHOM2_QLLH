@@ -15,6 +15,7 @@ namespace Nhom2
     {
         public FrmMenu()
         {
+            //
             InitializeComponent();
             UC_QLSV qlsv = new UC_QLSV();
             addUserControl(qlsv);
@@ -70,6 +71,11 @@ namespace Nhom2
         }
 
         private void guna2bcd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelContainer_Paint(object sender, PaintEventArgs e)
         {
 
         }
