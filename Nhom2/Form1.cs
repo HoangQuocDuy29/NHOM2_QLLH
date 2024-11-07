@@ -32,7 +32,7 @@ namespace Nhom2
 
         private void btndn_Click(object sender, EventArgs e)
         {
-            string connectionString = "Data Source=HOANG-QUOC-DUY\\SQLEXPRESS;Initial Catalog=Nhom2;Integrated Security=True;"; // Chuỗi kết nối đến SQL Server
+            string connectionString = "Data Source=HOANG-QUOC-DUY;Initial Catalog=QuanLySinhVien;Integrated Security=True;"; // Chuỗi kết nối đến SQL Server
             string query = "SELECT COUNT(*) FROM NguoiDung WHERE UserName = @username AND Password = @password";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -70,6 +70,11 @@ namespace Nhom2
         private void btnthoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -56,15 +56,15 @@
             this.panelMenu.Controls.Add(this.pictureBox1);
             this.panelMenu.Location = new System.Drawing.Point(-2, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(1384, 81);
+            this.panelMenu.Size = new System.Drawing.Size(2000, 77);
             this.panelMenu.TabIndex = 8;
             // 
             // ptexit
             // 
             this.ptexit.Image = ((System.Drawing.Image)(resources.GetObject("ptexit.Image")));
-            this.ptexit.Location = new System.Drawing.Point(1304, 12);
+            this.ptexit.Location = new System.Drawing.Point(1862, 0);
             this.ptexit.Name = "ptexit";
-            this.ptexit.Size = new System.Drawing.Size(68, 44);
+            this.ptexit.Size = new System.Drawing.Size(64, 44);
             this.ptexit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.ptexit.TabIndex = 2;
             this.ptexit.TabStop = false;
@@ -104,7 +104,7 @@
             this.panel1.Font = new System.Drawing.Font("Elephant", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(-2, 78);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1384, 77);
+            this.panel1.Size = new System.Drawing.Size(2000, 77);
             this.panel1.TabIndex = 9;
             // 
             // guna2bcd
@@ -123,9 +123,9 @@
             this.guna2bcd.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2bcd.ForeColor = System.Drawing.Color.Black;
             this.guna2bcd.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2bcd.Location = new System.Drawing.Point(1128, 0);
+            this.guna2bcd.Location = new System.Drawing.Point(1567, 0);
             this.guna2bcd.Name = "guna2bcd";
-            this.guna2bcd.Size = new System.Drawing.Size(256, 74);
+            this.guna2bcd.Size = new System.Drawing.Size(359, 74);
             this.guna2bcd.TabIndex = 5;
             this.guna2bcd.Text = "Báo Cáo Điểm";
             this.guna2bcd.Click += new System.EventHandler(this.guna2bcd_Click);
@@ -146,9 +146,9 @@
             this.guna2qld.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2qld.ForeColor = System.Drawing.Color.Black;
             this.guna2qld.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2qld.Location = new System.Drawing.Point(883, 0);
+            this.guna2qld.Location = new System.Drawing.Point(1196, 0);
             this.guna2qld.Name = "guna2qld";
-            this.guna2qld.Size = new System.Drawing.Size(248, 74);
+            this.guna2qld.Size = new System.Drawing.Size(374, 74);
             this.guna2qld.TabIndex = 4;
             this.guna2qld.Text = "QL Điểm";
             // 
@@ -168,9 +168,9 @@
             this.guna2gdsv.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2gdsv.ForeColor = System.Drawing.Color.Black;
             this.guna2gdsv.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.guna2gdsv.Location = new System.Drawing.Point(636, 0);
+            this.guna2gdsv.Location = new System.Drawing.Point(801, 0);
             this.guna2gdsv.Name = "guna2gdsv";
-            this.guna2gdsv.Size = new System.Drawing.Size(250, 74);
+            this.guna2gdsv.Size = new System.Drawing.Size(395, 74);
             this.guna2gdsv.TabIndex = 3;
             this.guna2gdsv.Text = "Ghi Danh";
             // 
@@ -191,9 +191,9 @@
             this.gunatlh.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunatlh.ForeColor = System.Drawing.Color.Black;
             this.gunatlh.HoverState.CustomBorderColor = System.Drawing.Color.Red;
-            this.gunatlh.Location = new System.Drawing.Point(480, 0);
+            this.gunatlh.Location = new System.Drawing.Point(509, 0);
             this.gunatlh.Name = "gunatlh";
-            this.gunatlh.Size = new System.Drawing.Size(160, 74);
+            this.gunatlh.Size = new System.Drawing.Size(293, 74);
             this.gunatlh.TabIndex = 2;
             this.gunatlh.Text = "Tạo Lớp Học";
             // 
@@ -215,7 +215,7 @@
             this.guna2qlmh.HoverState.CustomBorderColor = System.Drawing.Color.Red;
             this.guna2qlmh.Location = new System.Drawing.Point(255, 0);
             this.guna2qlmh.Name = "guna2qlmh";
-            this.guna2qlmh.Size = new System.Drawing.Size(229, 74);
+            this.guna2qlmh.Size = new System.Drawing.Size(258, 74);
             this.guna2qlmh.TabIndex = 1;
             this.guna2qlmh.Text = "QL Môn Học";
             this.guna2qlmh.Click += new System.EventHandler(this.guna2qlmh_Click);
@@ -238,17 +238,16 @@
             this.guna2qlsv.HoverState.CustomBorderColor = System.Drawing.Color.Red;
             this.guna2qlsv.Location = new System.Drawing.Point(3, 0);
             this.guna2qlsv.Name = "guna2qlsv";
-            this.guna2qlsv.Size = new System.Drawing.Size(254, 74);
+            this.guna2qlsv.Size = new System.Drawing.Size(255, 74);
             this.guna2qlsv.TabIndex = 0;
             this.guna2qlsv.Text = "QL Sinh Viên";
             this.guna2qlsv.Click += new System.EventHandler(this.guna2qlsv_Click);
             // 
             // panelContainer
             // 
-            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelContainer.Location = new System.Drawing.Point(0, 152);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1382, 417);
+            this.panelContainer.Size = new System.Drawing.Size(2000, 650);
             this.panelContainer.TabIndex = 10;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
@@ -268,7 +267,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1382, 569);
+            this.ClientSize = new System.Drawing.Size(1924, 603);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelMenu);
