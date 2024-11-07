@@ -13,7 +13,7 @@ namespace Nhom2.UserControls
 {
     public partial class UC_QLSV : UserControl
     {
-        string connect = "Data Source=HOANG-QUOC-DUY\\SQLEXPRESS;Initial Catalog=Nhom2;Integrated Security=True;";
+        string connect = "Data Source=HOANG-QUOC-DUY;Initial Catalog=QuanLySinhVien;Integrated Security=True;";
         SqlConnection con;
         SqlCommand cmd;
         SqlDataAdapter adapter;
